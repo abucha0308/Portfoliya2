@@ -1,0 +1,1002 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img {
+    background-color: var(--black);
+    width: 100%;
+    height: 750px;
+    background-image: url(/images/background.png);
+    background-position: right bottom;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+.container {
+    /* padding: 74px 240px; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav2 ul {
+    color: var(--white);
+    list-style: none;
+    display: flex;
+    gap: 76px;
+    cursor: pointer;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.nav2 ul li {
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Roboto;
+    line-height: 50px;
+}
+.nav2 ul li:hover {
+    color: var(--gold);
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0;
+}
+.louvre-h1 {
+    width: 680px;
+    height: 90px;
+    color: var(--white);
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 90px;
+    font-family: "Forum";
+}
+.louvre-p {
+    width: 445px;
+    color: var(--white);
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+}
+.louvre-text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.louvre {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+.but-1 {
+    width: 360px;
+    height: 75px;
+    background-color: var(--read);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    border-radius: 12px;
+    border: 1px solid var(--read);
+    cursor: pointer;
+}
+.but-1:hover {
+    background-color: var(--gold);
+    border: 1px solid var(--gold);
+}
+.virtual-tour-h2 {
+    color: var(--gold);
+    font-family: Forum;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    padding-top: 75px;
+}
+.virtual-tour-border {
+    border-bottom: 2px solid var(--read);
+}
+.virtual-tour-info {
+    padding-top: 75px;
+    height: 1115px;
+}
+.Royal-Palace {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Royal-Palace-img img {
+    width: 360px;
+    height: 235px;
+    flex-shrink: 0;
+}
+.Royal-Palace-name {
+    font-family: Forum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid var(--read);
+    padding-bottom: 9px;
+}
+.Royal-Palace-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Royal-Palace-p {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.Royal-Palace-p2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.virtual-tour-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 1340px;
+    height: 1000px;
+}
+.Picture-explore-bg-color {
+    background-color: var(--black);
+    width: 100%;
+    height: 865px;
+}
+.Picture-explore-h2 {
+    color: var(--white);
+    font-family: Forum;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    border-bottom: 2px solid var(--read);
+    padding-bottom: 25px;
+}
+.Picture-explore-p {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px;
+    width: 660px;
+    height: 77px;
+}
+.Picture-explore-p2 {
+    width: 660px;
+    height: 77px;
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px;
+}
+.Picture-explore-p3 {
+    width: 660px;
+    height: 77px;
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px;
+}
+.Picture-explore-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.Picture-explore-info {
+    display: flex;
+    flex-direction: column;
+    gap: 103px;
+}
+.yellow {
+    color: var(--yellow);
+}
+.Picture-explore {
+    display: flex;
+    gap: 60px;
+    padding-top: 75px;
+}
+.Picture-explore-img img {
+    width: 500px;
+    height: 600px;
+}
+.Video-journey {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 75px 0;
+}
+.Video-journey-img img {
+    width: 1200px;
+}
+.Video-journey-text {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Video-journey-p {
+    width: 720px;
+    height: 90px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38.5px;
+    padding-left: 60px;
+}
+.Video-journey-h2 {
+    color: var(--gold);
+    font-family: Forum;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+}
+.Buy-tickets-bg-color {
+    background-color: var(--black);
+    width: 100%;
+    height: 893px;
+}
+.Buy-tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 103px;
+    padding-top: 75px;
+}
+.Buy-tickets-h2 {
+    color: var(--white);
+    font-family: Forum;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--read);
+}
+.Ticket-Type {
+    display: flex;
+    gap: 60px;
+}
+.Ticket-Type-input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Ticket-Type-p {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Buy-tickets-img img {
+    width: 600px;
+
+}
+.Permanent {
+    color: #FFF;
+    display: flex;
+}
+.Permanent label {
+    padding-left: 10px;
+}
+.Permanent input {
+    background-color: var(--black);
+    border: 1px solid var(--white);
+}
+.input {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: 1px solid white;
+    cursor: pointer;
+}
+.input2 {
+    width: 17px;
+    height: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.Buy-tickets-info {
+    display: flex;
+    gap: 182px;
+}
+.Amount-text {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.Amount-p {
+    color: white;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 30px;
+}
+.Amount-p2 {
+    color: white;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.basic {
+    padding-top: 14px;
+}
+.but-2 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.Senior-p {
+    color: white;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+.Senior {
+    padding-top: 35px;
+}
+.Senior {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.total {
+    color: white;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.but-3 {
+    background-color: white;
+    border: 1px solid white;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+}
+.but-3:hover {
+    background-color: var(--gold);
+    border: 1px solid var(--gold);
+}
+.Contacts-h2 {
+    color: var(--gold);
+    font-family: Forum;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    border-bottom: 2px solid var(--read);
+    padding-bottom: 25px;
+    padding-top: 75px;
+}
+.Contacts-info {
+    padding-top: 119px;
+
+}
+.Contacts-text-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.Contacts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Contacts-h2-2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.Contacts-info {
+    display: flex;
+    gap: 198px;
+}
+.Contacts-img img {
+    width: 750px;
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+.footer-bg-color {
+    background-color: var(--black);
+    width: 100%;
+    height: 300px;
+
+}
+.footer-info {
+    display: flex;
+    gap: 145px;
+}
+.footer-ul ul {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 50px;
+    list-style: none;
+}
+.footer-text {
+    display: flex;
+    gap: 153px;
+}
+.footer-parent {
+    display: flex;
+    gap: 280px;
+    padding-top: 75px;
+}
+.footer-contacts {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.footer-contacts img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
